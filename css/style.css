@@ -1,33 +1,119 @@
-a {
-    text-decoration: none;
- }
-.main_menu{
-    color: cornflowerblue;
-    font-size: 16px;
-    line-height: 20px;
-} 
-.title{
-    color: #222222;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main {
+  background: rgb(255, 255, 255);
+}
+
+.menu_bar {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.header {
+  padding-top: 11.5px;
+  padding-left: 400px;
+  padding-bottom: 11.5px;
+
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  word-spacing: 20px;
+  text-align: left;
+}
+
+.logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 49px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1px;
+  letter-spacing: 0;
+  text-align: left;
 
 }
-.text{
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987
+
+.text-be {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  /*font-weight:900;*/
+  color: rgb(242, 88, 34);
 }
-li::marker{
-    content: '🖋️';
-    font-size: 1.2em;
+
+.menu-home {
+  color: rgb(242, 88, 34);
+
 }
-.subtitle{
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
+
+.title {
+  padding-left: 99px;
+  padding-right: 40.94px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.meta_png {
+  padding-left: 99px;
+}
+
+.home_content {
+  padding-left: 99px;
+  color: rgb(136, 136, 136);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.button_meta {
+  padding-top: 164px;
+  padding-left: 99px;
+}
+
+.start_now {
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.watch_video {
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-left: 212px;
+  font-size: 25px;
+}
+
+.brand {
+  padding-top: 97px;
+  padding-bottom: 96px;
+  padding-left: 59px;
+  padding-right: 375px;
+}
+
+.brand_1 {
+  padding-right: 38px;
 }
