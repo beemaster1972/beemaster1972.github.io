@@ -11,7 +11,7 @@ button {
 body {
   display: flex;
   flex-direction: column;
-  min-width: 1920px;
+  width: 1200px;
 }
 
 .main {
@@ -25,6 +25,7 @@ body {
   flex-direction: row;
   align-items: center;
   margin-top: 40px;
+  justify-content: space-between;
 }
 
 .header {
@@ -39,8 +40,8 @@ body {
   line-height: 10px;
   gap: 20px;
   text-align: left;
-  margin-left: 346px;
-  margin-right: 375px;
+  /*   margin-left: 375px; */
+  margin-right: 50px;
 }
 
 .logo-container {
@@ -48,7 +49,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 375px;
+  margin-left: 50px;
 }
 
 .logo {
@@ -107,7 +108,7 @@ body {
 .left-container {
   display: flex;
   flex-direction: column;
-  margin-left: 352px;
+  margin-left: 50px;
 }
 
 .left-title {
@@ -138,7 +139,7 @@ body {
 }
 
 .meta_png {
-  margin-right: 439px;
+  margin-right: 50px;
   margin-left: 39px;
   height: 374px;
 }
@@ -188,12 +189,13 @@ body {
 
 .brand-logo {
   display: flex;
+  flex-direction: row;
   margin-top: 97px;
-  margin-left: 315px;
-  margin-right: 375px;
+  margin-left: 15px;
+  margin-right: 50px;
   margin-bottom: 96px;
   justify-content: space-between;
-  gap: 48px;
+  gap: 4%;
 
 }
 
@@ -205,7 +207,7 @@ body {
 .feature-1 {
   width: 310px;
   height: 226px;
-  margin: 140px 61px 125px 404px;
+  margin: 140px 61px 125px 50px;
 
 }
 
@@ -263,7 +265,7 @@ body {
   justify-content: start;
   background-color: #fafafa;
   gap: 30px;
-  padding-left: 375px;
+  padding-left: 50px;
   padding-right: 375px;
 }
 
